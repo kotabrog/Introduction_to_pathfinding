@@ -4,7 +4,7 @@ import base64
 from IPython import display as dd
 
 
-def make_track_arrays(point_list, map_array, v=5):
+def make_track_arrays(point_list, map_array, v=4):
     map_arrays = []
     for p in point_list:
         array = map_array.copy()
@@ -13,7 +13,7 @@ def make_track_arrays(point_list, map_array, v=5):
     return map_arrays
 
 
-def make_track_arrays_all(goal_list, map_array, max_track=30, v=5):
+def make_track_arrays_all(goal_list, map_array, max_track=30, v=4):
     map_arrays = []
     for i, point_list in enumerate(goal_list):
         if i >= max_track:
@@ -35,7 +35,7 @@ def array_to_img(array: np.ndarray, max_v=2, img_size=(64, 64)):
 
 def arrays_to_gif(array_list,
                   save_path='sample.gif',
-                  max_v=2,
+                  max_v=4,
                   img_size=(64, 64),
                   show=False,
                   duration=1000):
