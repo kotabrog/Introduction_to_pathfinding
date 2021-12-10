@@ -21,4 +21,4 @@ https://qiita.com/Kotabrog/items/fecd80e0e4283bbd5cbc
 
 ## License
 
-[MIT](https://github.com/kotabrog/ft_mini_ls/blob/main/LICENSE)
+[MIT](https://github.com/kotabrog/Introduction_to_pathfinding/blob/main/LICENSE)
